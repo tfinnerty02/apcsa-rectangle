@@ -11,9 +11,9 @@ public class Area {
     double width = in.nextDouble();
     
     double area = length * width;
-    System.out.print("The area of a " + length + "-by-" + width + "rectangle is ");
-    System.out.printf("\n%.1f", area);
-    System.out.print(".");
+    System.out.print("\nThe area of a " + length + "-by-" + width + " rectangle is ");
+    System.out.printf("%.1f", area);
+    System.out.print(" square units.\n");
     
     in.close();
   }
